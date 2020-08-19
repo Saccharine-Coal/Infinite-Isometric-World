@@ -1,6 +1,7 @@
 import pygame as pg
 
 class Tile:
+    """This will have more functionality in the future."""
     def __init__(self, value):
         if value == 1:
             self.image = pg.image.load('images/grass_tile.png').convert_alpha()
